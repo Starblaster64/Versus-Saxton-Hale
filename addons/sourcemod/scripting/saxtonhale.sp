@@ -5603,6 +5603,7 @@ public Action:OnTakeDamage(client, &attacker, &inflictor, &Float:damage, &damage
                         if (damagecustom == TF_CUSTOM_HEADSHOT)
                         {
                             damage = 85.0;
+                            damagetype &= ~DMG_SLOWBURN; //Don't use damage falloff
                             return Plugin_Changed;
                         }
                     }
