@@ -2874,10 +2874,10 @@ public Action:TF2Items_OnGiveNamedItem(client, String:classname[], iItemDefiniti
         {
             hItemOverride = PrepareItemHandle(hItem, _, _, "107 ; 1.5 ; 1 ; 0.5 ; 128 ; 1 ; 191 ; -7", true);
         }
-		case 231: //Darwin's Danger Shield
-		{
-			hItemOverride = PrepareItemHandle(hItem, _, _, "26 ; 25.0");
-		}
+        case 231: //Darwin's Danger Shield
+        {
+            hItemOverride = PrepareItemHandle(hItem, _, _, "26 ; 25.0");
+        }
         case 415: // Reserve Shooter
         {
             if (iClass == TFClass_Soldier) // Soldier shotguns get 40% rocket jump
